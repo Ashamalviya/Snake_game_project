@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Snake by CodeWithHarry</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="game-shell">
+    <header class="game-header">
+      <div>
+        <p class="eyebrow">CodeWithHarry presents</p>
+        <h1>Snake</h1>
+      </div>
+      <div class="scores">
+        <span>Score <strong id="score">0</strong></span>
+        <span>Best <strong id="highscore">0</strong></span>
+      </div>
+    </header>
+
+    <section class="board-wrap" aria-label="Snake game">
+      <canvas id="gameCanvas" width="900" height="600"></canvas>
+      <div id="overlay" class="overlay">
+        <div class="panel">
+          <div class="snake-mark">🐍</div>
+          <h2 id="overlayTitle">Snake</h2>
+          <p id="overlayText">Eat the red food, grow longer, and avoid the walls and yourself.</p>
+          <button id="startButton">Start Game</button>
+        </div>
+      </div>
+    </section>
+
+    <div class="controls" aria-label="Game controls">
+      <button data-direction="up" aria-label="Move up">▲</button>
+      <div>
+        <button data-direction="left" aria-label="Move left">◀</button>
+        <button data-direction="down" aria-label="Move down">▼</button>
+        <button data-direction="right" aria-label="Move right">▶</button>
+      </div>
+    </div>
+    <p class="hint">Use arrow keys or WASD to move · Press Enter to start · P to pause</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
