@@ -1,5 +1,4 @@
 # Snake_game_project
-# 🐍 Snake Game
 
 A simple and interactive Snake Game built using HTML, CSS, and JavaScript.
 
