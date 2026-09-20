@@ -7,6 +7,7 @@ const overlayTitle = document.querySelector('#overlayTitle');
 const overlayText = document.querySelector('#overlayText');
 const startButton = document.querySelector('#startButton');
 
+
 const cols = 30;
 const rows = 20;
 const cell = canvas.width / cols;
